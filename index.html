@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tienda Tech Express - Módulo 1 Bootstrap 4</title>
+
+  <!-- Referencias CSS desde node_modules y hoja de estilos personalizada -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Jumbotron con el título y bienvenida del proyecto -->
+  <div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="display-4">Tienda Tech Express</h1>
+      <p class="lead">Soluciones tecnológicas, hardware de alto rendimiento y accesorios premium.</p>
+    </div>
+  </div>
+
+  <!-- Contenedor principal del contenido -->
+  <div class="container">
+
+    <!-- Sección de características principales: 3 títulos con sus respectivos párrafos <p> -->
+    <div class="row">
+      <div class="col-12 col-md-4 mb-3">
+        <div class="feature-box">
+          <h3>Garantía Oficial</h3>
+          <p>Todos nuestros equipos cuentan con garantía oficial de 12 meses y servicio técnico autorizado para asegurar tu inversión.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-3">
+        <div class="feature-box">
+          <h3>Envíos Rápidos</h3>
+          <p>Despachamos pedidos en menos de 24 horas hábiles a todo el país, con código de seguimiento en tiempo real puerta a puerta.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-3">
+        <div class="feature-box">
+          <h3>Soporte Personalizado</h3>
+          <p>Equipo de ingenieros y especialistas disponibles los 7 días de la semana para asesorarte antes y después de cada compra.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Separador entre las características previas y el catálogo de productos -->
+    <hr class="section-divider">
+
+    <div class="mb-4">
+      <h2 class="text-center font-weight-bold">Catálogo Destacado</h2>
+      <p class="text-center text-muted">Explorá nuestras últimas novedades seleccionadas para profesionales.</p>
+    </div>
+
+    <!-- Sistema de grillas responsive transformado a Flexbox (d-flex) para alinear y distribuir productos -->
+    <div class="row d-flex flex-wrap">
+
+      <!-- Producto 1 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex align-items-stretch mb-4">
+        <div class="product-card d-flex flex-column justify-content-between">
+          <div>
+            <h4 class="product-title">Notebook Pro Ultra 15"</h4>
+            <p class="product-description">Procesador de 12 núcleos, 32 GB de memoria RAM DDR5 y disco sólido PCIe NVMe de 1 TB para máxima productividad y desarrollo.</p>
+          </div>
+          <button type="button" class="btn btn-primary product-btn mt-3">Comprar</button>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex align-items-stretch mb-4">
+        <div class="product-card d-flex flex-column justify-content-between">
+          <div>
+            <h4 class="product-title">Monitor Curvo 27" 4K</h4>
+            <p class="product-description">Panel IPS de alta definición con tasa de refresco de 144 Hz, 99% sRGB y conectividad USB-C con entrega de energía integrada.</p>
+          </div>
+          <button type="button" class="btn btn-primary product-btn mt-3">Comprar</button>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex align-items-stretch mb-4">
+        <div class="product-card d-flex flex-column justify-content-between">
+          <div>
+            <h4 class="product-title">Teclado Mecánico RGB</h4>
+            <p class="product-description">Switches intercambiables en caliente (hot-swap), chasis de aluminio reforzado, perfiles programables y conectividad inalámbrica tri-mode.</p>
+          </div>
+          <button type="button" class="btn btn-primary product-btn mt-3">Comprar</button>
+        </div>
+      </div>
+
+      <!-- Producto 4 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex align-items-stretch mb-4">
+        <div class="product-card d-flex flex-column justify-content-between">
+          <div>
+            <h4 class="product-title">Mouse Ergonómico Vertical</h4>
+            <p class="product-description">Sensor óptico de 4000 DPI de alta precisión, diseño ergonómico para reducir la fatiga de muñeca y batería recargable de larga duración.</p>
+          </div>
+          <button type="button" class="btn btn-primary product-btn mt-3">Comprar</button>
+        </div>
+      </div>
+
+      <!-- Producto 5 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex align-items-stretch mb-4">
+        <div class="product-card d-flex flex-column justify-content-between">
+          <div>
+            <h4 class="product-title">Auriculares Noise Cancelling</h4>
+            <p class="product-description">Cancelación activa de ruido híbrida de nivel profesional, audio espacial y hasta 35 horas de autonomía continua por carga.</p>
+          </div>
+          <button type="button" class="btn btn-primary product-btn mt-3">Comprar</button>
+        </div>
+      </div>
+
+      <!-- Producto 6 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex align-items-stretch mb-4">
+        <div class="product-card d-flex flex-column justify-content-between">
+          <div>
+            <h4 class="product-title">Docking Station Thunderbolt 4</h4>
+            <p class="product-description">Hub de expansión universal con 12 puertos multifunción, soporte para doble monitor 4K y lector de tarjetas SD de alta velocidad.</p>
+          </div>
+          <button type="button" class="btn btn-primary product-btn mt-3">Comprar</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer con clases de alineación: izquierda, centro y derecha -->
+  <footer class="footer py-4 mt-5">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- Elementos del footer alineados a la izquierda: información del comercio con tag <address> -->
+        <div class="col-12 col-md-4 text-left mb-3 mb-md-0">
+          <h5>Información del Comercio</h5>
+          <address>
+            <strong>Tienda Tech Express S.A.</strong><br>
+            Av. Libertador 4500, Piso 5<br>
+            Buenos Aires, Argentina<br>
+            <abbr title="Teléfono">Tel:</abbr> +54 11 5555-8888<br>
+            <a href="mailto:soporte@techexpress.com" class="text-info">soporte@techexpress.com</a>
+          </address>
+        </div>
+
+        <!-- Elementos del footer alineados al centro: redes sociales -->
+        <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
+          <h5>Nuestras Redes</h5>
+          <p class="mb-2">Seguinos y enterate de novedades:</p>
+          <div>
+            <a href="https://facebook.com" class="text-light mx-2" target="_blank" rel="noopener">Facebook</a> |
+            <a href="https://instagram.com" class="text-light mx-2" target="_blank" rel="noopener">Instagram</a> |
+            <a href="https://linkedin.com" class="text-light mx-2" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <!-- Elementos del footer alineados a la derecha: detalles del sitio y derechos -->
+        <div class="col-12 col-md-4 text-right">
+          <h5>Sobre el Sitio</h5>
+          <p class="mb-1">Proyecto Práctico - Módulo 1</p>
+          <p class="small text-muted mb-0">&copy; 2026 Tienda Tech Express. Todos los derechos reservados.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts JS desde node_modules: jQuery, Popper.js y Bootstrap -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
